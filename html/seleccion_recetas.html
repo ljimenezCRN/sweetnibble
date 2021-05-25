@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta lang="es">
+    <meta author="Laia Jimenez y Adrián López">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=PT+Serif&family=Pattaya&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="../fonts.css">
+
+    <link rel="stylesheet" media="only screen and (min-width: 360px) and (max-width: 619px)" href="../css/seleccion_receta/seleccion_receta_mobil.css">
+
+    <link rel="stylesheet" media="only screen and (min-width:620px) and (max-width:1023px)" href="../css/seleccion_receta/seleccion_receta_tablet.css">
+
+    <link rel="stylesheet" media="only screen and (min-width:1024px)" href="../css/seleccion_receta/seleccion_receta_pc.css">
+
+    <title>Sweet Nibble</title>
+
+  </head>
+
+  <body>
+      <header class="header">
+        <div class="Logo">
+         <a class="Logo" href="index.html"><img src="../logo.png" title="Sweet Nibble"></a>
+          <div class="menu_bar">
+          <a href="#" class="bt-menu"><span class="icon-menu"></span>Menú</a>
+          </div>
+            <div class="respmenu">
+    <input type="checkbox">
+    <i class="fas fa-bars"></i>
+    <i class="fas fa-times"></i>
+            <nav class="menu">
+              <ul>
+                <li><a href="index.html"><span class="icon-home"></span> Inici</a></li>
+                <li><a href="seleccion_recetas.html"><span class="icon-file-text"></span> Receptes</a></li>
+                <li><a href="galeria.html"><span class="icon-images"></span> Galería</a></li>
+                <li><a href="sobre_nosotros.html"><span class="icon-users"></span> Sobre nosaltres</a></li>
+                <li><a href="contacto.html"><span class="icon-envelop"></span> Contacte</a></li>
+              </ul>
+          </nav>
+      </header>
+
+      <div id="contenedor">
+        <div class="opciones">
+          <img src="../img/recetas/oreo.jpg" alt="">
+            <h4>Cupcake de Oreo</h4>
+            <p>T'agraden les Oreo? Aprèn a elaborar aquests deliciosos Cupcakes d'Oreo amb nosaltres!  </p>
+            <a href="receta1.html" target="_blank">Llegir més</a>
+        </div>
+
+        <div class="opciones">
+          <img src="../img/recetas/cupcake_kitkat.jpg" alt="">
+            <h4>Cupcake Kit Cup</h4>
+            <p>T'agraden els Kit Kats? Aprèn a elaborar aquests deliciosos Cupcakes de Kit Kat amb nosaltres! </p>
+            <a href="receta2.html" target="_blank">Llegir més</a>
+        </div>
+
+        <div class="opciones">
+          <img src="../img/recetas/cherry_cupcake.jpg" alt="">
+            <h4>Cherry Cupcake</h4>
+            <p>T'agraden les Cireres amb Caramel? Aprèn a elaborar aquests deliciosos Cupcakes amb Cirera amb nosaltres! </p>
+            <a href="receta3.html" target="_blank">Llegir més</a>
+        </div>
+
+        <div class="opciones">
+          <img src="../img/recetas/cupcake_filipino.jpg" alt="">
+            <h4>Cupcake Filipino</h4>
+            <p>T'agraden els filipins? Aprèn a elaborar aquests deliciosos Cupcakes amb Filipí amb nosaltres! </p>
+            <a href="receta4.html" target="_blank">Llegir més</a>
+        </div>
+
+        <div class="opciones">
+          <img src="../img/recetas/cupcake_sweet.jpg" alt="">
+            <h4>Sweet Cupcake</h4>
+            <p>T'agraden les Chuches? Aprèn a elaborar aquests deliciosos Cupcakes dolços amb nosaltres! </p>
+            <a href="receta5.html" target="_blank">Llegir més</a>
+        </div>
+
+        <div class="opciones">
+          <img src="../img/recetas/cupcake_tropical.jpg" alt="">
+            <h4>Cupcake Tropical</h4>
+            <p>T'agrada la Pinya Colada? Aprèn a elaborar aquests deliciosos Cupcakes de Pinya Colada amb nosaltres! </p>
+            <a href="receta6.html" target="_blank">Llegir més</a>
+        </div>
+      </div>
+
+      <footer></footer>
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="../menu.js"></script>
+    <script src="../js/main.js"></script>
+
+    <script>
+        $('.navbar-nav>li>a').on('click', function(){
+            $('.navbar-collapse').collapse('hide');
+        });
+    </script>
+    </body>

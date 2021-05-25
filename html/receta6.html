@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta lang="es">
+      <meta author="Laia Jimenez y Adrián López">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+      <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+         rel="stylesheet">
+         <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Lobster&family=PT+Serif&family=Pattaya&family=Playfair+Display&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="../fonts.css">
+      <link rel="stylesheet" media="only screen and (min-width: 360px) and (max-width: 619px)" href="../css/recetas/receta_mobil.css">
+      <link rel="stylesheet" media="only screen and (min-width:620px) and (max-width:1023px)" href="../css/recetas/recetastablet.css">
+      <link rel="stylesheet" media="only screen and (min-width:1024px)" href="../css/recetas/recetaspc.css">
+      <title>Sweet Nibble</title>
+   </head>
+   <body>
+      <header class="header">
+         <div class="Logo" href="index.html">
+         <a class="Logo" href="index.html"><img src="../logo.png" title="Sweet Nibble"></a>
+         <div class="menu_bar">
+            <a href="#" class="bt-menu"><span class="icon-menu"></span>Menu</a>
+         </div>
+         <div class="respmenu">
+         <input type="checkbox">
+         <i class="fas fa-bars"></i>
+         <i class="fas fa-times"></i>
+         <nav class="menu">
+           <ul>
+             <li><a href="index.html"><span class="icon-home"></span> Inici</a></li>
+             <li><a href="seleccion_recetas.html"><span class="icon-file-text"></span> Receptes</a></li>
+             <li><a href="galeria.html"><span class="icon-images"></span> Galería</a></li>
+             <li><a href="sobre_nosotros.html"><span class="icon-users"></span> Sobre nosaltres</a></li>
+             <li><a href="contacto.html"><span class="icon-envelop"></span> Contacte</a></li>
+           </ul>
+         </nav>
+      </header>
+      <div id="contenedor">
+         <div id="titulo">
+            <h1>Cupcake Tropical</h1>
+         </div>
+         <div id="ingredientes">
+            <h1>Ingredientes</h1>
+            <ul>
+            <h4>Pa de pessic</h4>
+               <li>429g de farina.</li>
+               <li>265g de sucre en pols.</li>
+               <li>½ cullerada de sal</li>
+               <li>3 cullerades de llevat.</li>
+               <li>375ml de llet de coco</li>
+               <li>125g de mantega sense sal.</li>
+               <li>2 cullerades de yogurt.</li>
+               <li>Extracte de vainilla.</li>
+               <li>2 ous grans.</li>
+
+              <h4>Buttercream</h4>
+               <li>150g </li>
+               <li>1 lot de glacejat de crema de mantega i vainilla esponjós.</li>
+               <li>2 cullerades de ron o essència de coco.</li>
+               <li>Trossets de pinya</li>
+
+               <br>
+            </ul>
+         </div>
+         <div id="pasos">
+            <img src="../img/recetas/cupcake_tropical.jpg" alt="">
+          <h3>Pa de pessig</h3>
+            <p><b>1.</b> Preescalfem el forn a 180º o a 160º amb ventilador.</p>
+            <p><b>2.</b> Forrar la llauna per cupcakes amb folres per cupcakess.</p>
+            <p><b>3.</b> En un bol, afegim la farina, el llevat, el sucre en pols i la sal. Barrejar durant un parell de minuts.</p>
+            <p><b>4.</b> Afegim la mantega i mesclem.</p>
+            <p><b>5.</b> A continuació afegeix la llet de coco,els ous, el iogurt grec i l'extracte de vainilla en una gerra grande i barrejar-ho tot bé</p>
+            <p><b>6.</b> Afegim la barreja anterior a la primera que hem realitzat i mesclar.</p>
+            <p><b>7.</b> Omplim 3/4 els motlles dels cupcakes.</p>
+            <p><b>8.</b> Enfornar durant 20-25 minuts o fins que a l'inserir un escuradents surti net.</p>
+            <p><b>9.</b> Deixar refredar completament</p>
+          <h3>Buttercream</h3>
+            <p><b>1.</b> Per preparar el glacejat de crema de mantega, afegeix el ron o l'essència de coco i barrejar fins que estigui tot ben combinat.</p>
+            <p><b>2.</b> Per decorar les cupcakes, col·loca l'extrem d'una màniga pastissera amb una punta rodona i glaceja les cupcakes con si fos un remolí.
+            <p><b>3.</b> Afegir una rodanxa de pinya a una banda, decorar amb unes palletes de paper i posa-li el complemet més tropical que et sembli. Afegeix-li una elegant para-sol de còctel</p>
+
+         </div>
+      </div>
+      <footer>
+      </footer>
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="../js/menu.js"></script>
+      <script>
+         $('.navbar-nav>li>a').on('click', function(){
+             $('.navbar-collapse').collapse('hide');
+         });
+      </script>
+   </body>

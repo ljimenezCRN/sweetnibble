@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta lang="es">
+      <meta author="Laia Jimenez y Adrián López">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+      <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+         rel="stylesheet">
+         <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Lobster&family=PT+Serif&family=Pattaya&family=Playfair+Display&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="../fonts.css">
+      <link rel="stylesheet" media="only screen and (min-width: 360px) and (max-width: 619px)" href="../css/recetas/receta_mobil.css">
+      <link rel="stylesheet" media="only screen and (min-width:620px) and (max-width:1023px)" href="../css/recetas/recetastablet.css">
+      <link rel="stylesheet" media="only screen and (min-width:1024px)" href="../css/recetas/recetaspc.css">
+      <title>Sweet Nibble</title>
+   </head>
+   <body>
+      <header class="header">
+         <div class="Logo">
+         <a class="Logo" href="index.html"><img src="../logo.png" title="Sweet Nibble"></a>
+         <div class="menu_bar">
+            <a href="#" class="bt-menu"><span class="icon-menu"></span>Menú</a>
+         </div>
+         <div class="respmenu">
+         <input type="checkbox">
+         <i class="fas fa-bars"></i>
+         <i class="fas fa-times"></i>
+         <nav class="menu">
+           <ul>
+             <li><a href="index.html"><span class="icon-home"></span> Inici</a></li>
+             <li><a href="seleccion_recetas.html"><span class="icon-file-text"></span> Receptes</a></li>
+             <li><a href="galeria.html"><span class="icon-images"></span> Galería</a></li>
+             <li><a href="sobre_nosotros.html"><span class="icon-users"></span> Sobre nosaltres</a></li>
+             <li><a href="contacto.html"><span class="icon-envelop"></span> Contacte</a></li>
+           </ul>
+         </nav>
+      </header>
+      <div id="contenedor">
+         <div id="titulo">
+            <h1>Cupcake de Oreo</h1>
+         </div>
+         <div id="ingredientes">
+            <h1>Ingredients</h1>
+            <ul>
+            <h4>Pa de pesig</h4>
+               <li>2 os M.</li>
+               <li>100g de sucre.</li>
+               <li>120g de farina.</li>
+               <li>100g de mantega sense sal.</li>
+               <li>2 cullerades de cacau en pols.</li>
+               <li>4 cullerades de llevat.</li>
+               <li>1 cullerada d'extracte de vainilla.</li>
+               <li>120ml de buttermilk.</li>
+               <li>12 galetes de oreo ratllada.</li>
+              <h4>Buttermilk</h4>
+               <li>150g de mantega.</li>
+               <li>100g de formatge philadelphia.</li>
+               <li>300g de sucre glass.</li>
+               <li>12 galetes de oreo.</li>
+               <li>1 cullerada d'extracte de vainilla.</li>
+               <br>
+            </ul>
+         </div>
+         <div id="pasos">
+            <img src="../img/recetas/oreo.jpg" alt="">
+          <h3>Pa de pessig</h3>
+            <p><b>1.</b> Bat la mantega estovada a temperatura ambient juntament amb el sucre.</p>
+            <p><b>2.</b> A continuació afegeix els rovells d'ou, reservant les clares per a més endevant.</p>
+            <p><b>3.</b> En un recipient a part barreja la farina, el cacau i el llevat. Afegeix-lo a la massa tamissant tot junt. Torne a batre i incorpora ara les oreo ratllades.</p>
+            <p><b>4.</b> És el torn del buttermilk. Bat poc a poc, i poc a poc incorpora el buttermilk a la barreja.</p>
+            <p><b>5.</b> Afegeix les clares, les quals haurem muntat a punt de neu.</p>
+            <p><b>6.</b> Reparteix la massa en les càpsules i s'enforna a 180º durant 20 minuts aproximadament Deixa refredar 5 minuts.</p>
+          <h3>Buttercream</h3>
+            <p><b>1.</b> Batre a velocitat baixa la mantega estovada a temperatura ambient amb el sucre glass, el qual haurem tamissat prèviament.</p>
+            <p><b>2.</b> Afegeix el formatge a una velocitat una mica més elevada i l'essència de vainilla.</p>
+            <p><b>3.</b> Finalment, afegeix les galetes oreo ratllades.</p>
+         </div>
+      </div>
+      <footer>
+      </footer>
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="../js/menu.js"></script>
+      <script>
+         $('.navbar-nav>li>a').on('click', function(){
+             $('.navbar-collapse').collapse('hide');
+         });
+      </script>
+   </body>
